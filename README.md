@@ -7,5 +7,10 @@ In on terminal run:
 cargo run
 ```
 
-That will output a hex address
-# RustSharedMemory
+Then in another:
+
+```
+cargo run -- --read
+```
+
+This will read and exit
